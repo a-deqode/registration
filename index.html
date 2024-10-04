@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management System</title>
+    <link rel="stylesheet" href="index.css"> 
+</head>
+<body>
+    <div class="all">
+    <div id="main">
+       
+        <div class="container" id="register">
+            <h2>Register</h2>
+            <input type="email" placeholder="Email" id="regEmail">
+            <input type="text" placeholder="Username" id="regUsername">
+            <input type="password" placeholder="Password" id="regPassword">
+            <input type="text" placeholder="First Name" id="regFirstName">
+            <input type="text" placeholder="Last Name" id="regLastName">
+            <select id="regGender">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <select id="regRole">
+                <option value="">Select Role</option>
+                <option value="admin">Admin</option>
+                <option value="operations">Operations</option>
+                <option value="sales">Sales</option>
+            </select>
+            <button onclick="register()">Register</button>
+        </div>
+
+      
+        <div class="container" id="login">
+            <h2>Login</h2>
+            <input type="text" placeholder="Username" id="loginUsername">
+            <input type="password" placeholder="Password" id="loginPassword">
+            <button onclick="login()" >Login</button>
+        </div>
+    </div>
+
+
+    
+    <script src="script.js"></script> 
+</body>
+</html>
