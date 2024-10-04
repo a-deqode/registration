@@ -12,10 +12,10 @@
        
         <div class="container" id="register">
             <h2>Register</h2>
-            <input type="email" placeholder="Email" id="regEmail">
-            <input type="text" placeholder="Username" id="regUsername">
-            <input type="password" placeholder="Password" id="regPassword">
-            <input type="text" placeholder="First Name" id="regFirstName">
+            <input type="email" placeholder="Email" name = "email" id="regEmail">
+            <input type="text" placeholder="Username" name = "name" id="regUsername">
+            <input type="password" placeholder="Password" name = "password" id="regPassword">
+            <input type="text" placeholder="First Name" name = "firstname"id="regFirstName">
             <input type="text" placeholder="Last Name" id="regLastName">
             <select id="regGender">
                 <option value="">Select Gender</option>
@@ -40,6 +40,10 @@
             <button onclick="login()" >Login</button>
         </div>
     </div>
+      <div class="container" id="userList" style="display:none;">
+        <h2>User list</h2>
+        <ul id="users"></ul>
+      </div>
 
 
     
